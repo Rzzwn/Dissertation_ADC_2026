@@ -1,0 +1,5 @@
+﻿Test,Statistic,p-value,Effect Size
+Mann-Whitney U,U=3197868,0.004041,r=-0.0483
+Chi-square,χ²=0.02,0.901471,V=0.0017
+Bootstrap CI Dan,Mean=0.7438,N/A,"[0.7376, 0.7504]"
+Bootstrap CI Simion,Mean=0.7319,N/A,"[0.7274, 0.7366]"

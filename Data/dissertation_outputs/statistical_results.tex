@@ -1,0 +1,85 @@
+% Rezultate Statistice - Disertație de Master
+% Generat automat
+
+% Tabel 1: Distribuție Sentiment
+\begin{table}
+\caption{Tabel 1: Distribuție Sentiment}
+\label{tab:tabel_1:_distribuție_sentiment}
+\begin{tabular}{lrr}
+\toprule
+Sentiment & Count & Percentage \\
+\midrule
+Positive & 4906 & 33.579740 \\
+Negative & 9704 & 66.420260 \\
+Total & 14610 & 100.000000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Tabel 2: Sentiment pe Candidați
+\begin{table}
+\caption{Tabel 2: Sentiment pe Candidați}
+\label{tab:tabel_2:_sentiment_pe_candidaț}
+\begin{tabular}{lrrr}
+\toprule
+Candidat & Positive % & Negative % & N \\
+\midrule
+Nicușor Dan & 32.876712 & 67.123288 & 1825 \\
+George Simion & 32.665271 & 67.334729 & 3343 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Tabel 3: Teste Statistice RQ1-RQ2
+\begin{table}
+\caption{Tabel 3: Teste Statistice RQ1-RQ2}
+\label{tab:tabel_3:_teste_statistice_rq1-}
+\begin{tabular}{llrl}
+\toprule
+Test & Statistic & p-value & Effect Size \\
+\midrule
+Mann-Whitney U & U=3197868 & 0.004041 & r=-0.0483 \\
+Chi-square & χ²=0.02 & 0.901471 & V=0.0017 \\
+Bootstrap CI Dan & Mean=0.7438 & NaN & [0.7376, 0.7504] \\
+Bootstrap CI Simion & Mean=0.7319 & NaN & [0.7274, 0.7366] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Tabel 5: Corelații Spearman RQ3
+\begin{table}
+\caption{Tabel 5: Corelații Spearman RQ3}
+\label{tab:tabel_5:_corelații_spearman_rq}
+\begin{tabular}{lrrl}
+\toprule
+Predictor & Spearman ρ & p-value & Significant \\
+\midrule
+Caps Ratio & -0.008759 & 0.289788 & ❌ \\
+Aggressive Punctuation & 0.051040 & 0.000000 & ✅ \\
+Has Caps (Binary) & -0.005547 & 0.502600 & ❌ \\
+Has Aggressive Punct (Binary) & 0.049809 & 0.000000 & ✅ \\
+Has Emoji (Binary) & 0.041651 & 0.000000 & ✅ \\
+Text Length & 0.045483 & 0.000000 & ✅ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Tabel 6: Teste Chi-Pătrat RQ3
+\begin{table}
+\caption{Tabel 6: Teste Chi-Pătrat RQ3}
+\label{tab:tabel_6:_teste_chi-pătrat_rq3}
+\begin{tabular}{lrrrl}
+\toprule
+Test & Chi2 & p-value & Cramér's V & Significant \\
+\midrule
+Sentiment × Has Caps & 2.962138 & 0.085235 & 0.014092 & No \\
+Sentiment × Has Aggressive Punct & 8.697115 & 0.003187 & 0.024147 & Yes \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+

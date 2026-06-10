@@ -1,0 +1,8 @@
+﻿Etapa,Comentarii,Retenție %
+Raw Input,37858,100.0
+After Spam/Creator Filter,37841,99.96
+After Temporal Filter,20357,53.77
+After Text Cleaning,20323,53.68
+After Quality Filter,16027,42.33
+After Deduplication,14610,38.59
+Final Dataset,14610,38.59
