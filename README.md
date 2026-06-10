@@ -4,6 +4,6 @@ The scraper used is not mine, however it was published on GitHub as free-to-use 
 The post related to this tool is: My wife was manually copying YouTube comments, so I built this tool. : r/SideProject
 The GitHub reference is https://github.com/vijaykumarpeta/yt-comments-extractor
 
-The rest of the work done for my dissertation for ADC 2026 appears onto Data folder.
+The rest of the work done for my dissertation for ADC 2026 appears onto Data folder. Bibliography and Attempts folders can be ignored fully, as they are irrelevant for the purposes of code review.
 
 Enjoy!
