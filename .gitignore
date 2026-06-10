@@ -1,11 +1,27 @@
-﻿venv/
+﻿# Python venv folders
+venv/
 venv*/
+*/venv/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Large files
 *.dll
 *.exe
+
+# Environment
 .env
+
+# Logs
 *.log
+
+# Jupyter
 .ipynb_checkpoints/
+
+# OS
 .DS_Store
 Thumbs.db
