@@ -1,0 +1,12 @@
+{
+  "filter_spam": false,
+  "spam_threshold": 0.8,
+  "exclude_creator": false,
+  "min_likes": 0,
+  "filter_words": "",
+  "blacklist_patterns": "",
+  "whitelist_patterns": "",
+  "sort_by": "likes",
+  "window_width": 950,
+  "window_height": 970
+}
